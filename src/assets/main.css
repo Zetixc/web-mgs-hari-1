@@ -1,0 +1,209 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#app {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+  box-shadow: 0px 4px 18px 0px rgba(207, 207, 207, 0.25);
+}
+
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-list li {
+  margin-right: 30px;
+}
+
+.menu-list li:last-child {
+  margin-right: 0;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: #313131;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-icon {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px 0;
+  display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 8px 20px;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  color: #ed1c25;
+}
+
+.home {
+  background-color: #f1f5f5;
+  height: 700px;
+  display: flex;
+}
+
+.home-left {
+  flex: 1.2;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.lingkaran {
+  position: absolute;
+  top: 30%;
+  left: 9%;
+  transform: translateY(-50%);
+}
+
+.home-left-content {
+  padding: 150px;
+}
+
+.home-left h3 {
+  color: #ed1c25;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+.home-left h1 {
+  color: #1f1f1f;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.home-left p {
+  color: #1f1f1fcc;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+.home-left .contact-button {
+  background-color: #ed1c25;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 156px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.home-right {
+  flex: 0.8;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.home-right img {
+  max-width: 120%;
+}
+
+.our-services {
+  height: 800px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-services h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ed1c25;
+  padding-bottom: 12px;
+}
+
+.our-services h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #1f1f1f;
+}
+
+.box-our-services {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.box-our-services-left,
+.box-our-services-right {
+  width: 570px;
+  height: 334px;
+  padding: 140px 80px 72px 50px;
+  border-radius: 10px;
+  border: 1px solid #290f2033;
+}
