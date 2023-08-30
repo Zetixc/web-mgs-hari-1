@@ -1,0 +1,164 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#app {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  cursor: default !important;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 150px;
+  box-shadow: 0px 4px 18px 0px rgba(207, 207, 207, 0.25);
+  z-index: 999999999999999999999999999999999999999;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 30px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #313131;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-icon {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 75px;
+  background-color: white;
+  box-shadow: 0px 4px 18px 0px #cfcfcf80;
+  list-style: none;
+  padding-top: 30px;
+  padding-left: 30px;
+  border-radius: 10px;
+  display: none;
+}
+
+.dropdown-menu .column {
+  display: flex;
+  color: #1f1f1f;
+}
+
+.dropdown-menu .column h4 {
+  display: flex;
+  width: 131px;
+  height: 22px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #061951;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  color: #ed1c25;
+}
+
+.sitemap {
+  background-color: #f1f5f5;
+  height: 812px;
+  position: relative;
+}
+
+.sitemap h2 {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  width: 121px;
+  height: 36px;
+  top: 130px;
+  left: 150px;
+  padding-top: 130px;
+  padding-left: 150px;
+  padding-bottom: 60px;
+}
+
+.box {
+  width: 1140px;
+  height: 436px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.group {
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: black;
+  height: 29px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #061951cc;
+}
+
+.footer-line {
+  position: absolute;
+  top: 330px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1140px;
+  height: 1px;
+  background-color: white;
+  padding: 0 150px;
+}
