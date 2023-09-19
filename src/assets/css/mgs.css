@@ -1,0 +1,186 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#app {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  cursor: default !important;
+  scroll-behavior: smooth;
+}
+
+.header-about-mgs {
+  background: #ed1c25;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header-about-mgs img {
+  position: absolute;
+  top: -72px;
+  right: 0;
+}
+
+.header-about-mgs .text-atas {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-about-mgs h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+.header-about-mgs .jarak-dikit-aja {
+  height: 5px;
+}
+
+.header-about-mgs p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: white;
+}
+
+.header-about-mgs .button .icon {
+  top: 50px;
+  left: 100px;
+}
+
+.header-about-mgs .button .text {
+  color: white;
+  position: absolute;
+  top: 53px;
+  left: 140px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.hero-about-mgs {
+  height: 600px;
+  background: url(../images/about/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sidebar {
+  position: absolute;
+  width: 150px;
+  height: 600px;
+  background: #f9fafc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 25px;
+}
+
+.menu-item {
+  padding-bottom: 30px;
+}
+
+.menu-icon-active a {
+  color: #ed1c25;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+.menu-icon,
+.a-mgs {
+  text-decoration: none;
+  color: #1f1f1f66;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+
+.garis-bawah-active {
+  height: 1px;
+  width: 100px;
+  background: #ed1c25;
+}
+
+.garis-bawah {
+  height: 1px;
+  width: 100px;
+  background: #a2a2a4;
+}
+
+.hero-about-mgs .content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero-about-mgs h1 {
+  padding-top: 100px;
+  padding-left: 290px;
+  width: 690px;
+  height: 291px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 97px;
+  color: #1f1f1fcc;
+}
+
+.about-mgs-extra {
+  height: 258px;
+  background: #f1f5f5;
+  display: flex;
+  justify-content: center;
+}
+
+.about-mgs-extra p {
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: justify;
+  color: #1f1f1fcc;
+  width: 1140px;
+}
+
+.our-mission-about-mgs {
+  background: #ed1c25;
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 150px;
+}
+
+.our-mission-about-mgs p {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+  padding-bottom: 30px;
+}
+
+.our-mission-about-mgs h1 {
+  color: white;
+  width: 1312px;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 73px;
+  letter-spacing: 0.5px;
+}

@@ -1,0 +1,111 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#app {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  cursor: default !important;
+  scroll-behavior: smooth;
+}
+
+.header-career {
+  background: #ed1c25;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.header-career img {
+  position: absolute;
+  top: -72px;
+  right: 0;
+}
+
+.header-career h1 {
+  position: absolute;
+  font-size: 50px;
+  font-weight: 600;
+  top: 56px;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+.header-career h5 {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 500;
+  top: 122px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+}
+
+.header-career .button .icon {
+  top: 50px;
+  left: 100px;
+}
+
+.header-career .button .text {
+  color: white;
+  position: absolute;
+  top: 53px;
+  left: 140px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.job {
+  height: 1370px;
+  background: #f1f5f5;
+}
+
+.job .text {
+  padding-left: 90px;
+  padding-top: 50px;
+}
+
+.job h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #061951;
+  padding-bottom: 20px;
+}
+
+.job p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: justify;
+  color: #290f20cc;
+  width: 1200px;
+}
+
+.job-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-input {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #290f2066;
+  padding: 11.5px 0px 11.5px 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-image: url('../assets/icons/career/location.svg');
+  background-position: 10px center;
+  background-repeat: no-repeat;
+}
+

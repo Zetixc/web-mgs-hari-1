@@ -1,0 +1,253 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#app {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+  cursor: default !important;
+  scroll-behavior: smooth;
+}
+
+.top-about {
+  background: #ed1c25;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.top-about img {
+  position: absolute;
+  top: -72px;
+  right: 0;
+}
+
+.top-about h1 {
+  position: absolute;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 58px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.top-about .button .icon {
+  top: 50px;
+  left: 100px;
+}
+
+.top-about .button .text {
+  color: white;
+  position: absolute;
+  top: 53px;
+  left: 140px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.main-about {
+  height: 600px;
+  background: url(../images/about/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-about .content {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+
+.main-about h1 {
+  width: 595px;
+  height: 61px;
+  color: #1f1f1f;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+}
+
+.main-about p {
+  padding-top: 10px;
+  width: 595px;
+  height: 144px;
+  color: #1f1f1fcc;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: justify;
+}
+
+.history-about {
+  height: 800px;
+  background: #f1f5f5;
+}
+
+.history-about .content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.history-about h1 {
+  color: #1f1f1f;
+  padding-top: 50px;
+  padding-left: 150px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+}
+
+.history-about p {
+  color: #290f20cc;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: justify;
+}
+
+.history-about .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.mission-about {
+  background: white;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-about .content {
+  background: #ed1c25;
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 150px;
+}
+
+.mission-about .content p {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.5px;
+  padding-bottom: 30px;
+}
+
+.mission-about .content h1 {
+  color: white;
+  width: 1312px;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 73px;
+  letter-spacing: 0.5px;
+}
+
+.team-about {
+  min-height: 1673px;
+  background-color: #f1f5f5;
+}
+
+.team-about .content {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.team-about .text {
+  padding-left: 90px;
+}
+
+.team-about h1 {
+  padding-bottom: 35px;
+  color: black;
+  padding-top: 100px;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: 0.5px;
+}
+
+.team-about p {
+  padding-bottom: 35px;
+  width: 1112px;
+  color: #290f20cc;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: justify;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 90px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.identity {
+  width: 250px;
+  height: 87px;
+  padding: 12px 20px;
+  border-radius: 20px;
+  background: #ffffffcc;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.identity h5 {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.identity p {
+  width: 37px;
+  height: 34px;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+}
+

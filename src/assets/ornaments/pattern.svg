@@ -1,0 +1,25 @@
+<svg width="570" height="200" viewBox="0 0 570 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_337_62)">
+<path d="M404 20.5V35.5L437 69.5V126.5L587 276.5" stroke="white" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.5 6.5L123.5 124.5H181.5L138 80L240.5 182.5H267M267 182.5L202 118V73.5L149.5 20.5M267 182.5H284L353 251.5M353 251.5V205.5L304 156.718M353 251.5L446 344.5M170 -26.5L240.5 45V93.5L304 156.718M304 156.718V67.5L252.5 15.5" stroke="white" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M226.5 -56.5H274L319.5 -11V47.5L277.5 5.5L340.5 68.5V137L548.5 344.5" stroke="white" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M422 194.5L549 321H589L609 342" stroke="white" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M293.5 -81L371 -4V90.5L557.5 277H611.5L660.5 325.5" stroke="white" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M486.5 133L513.5 161H539L660 284.5" stroke="white" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M351.5 -58L383.5 -26.5H417.5L462.5 18V61L494 92.5H517L639 214V172L578 112.5M578 112.5V82.25V52L529.75 3.75L481.5 -44.5V-81M578 112.5L449 -17M449 -17V-75.5L444.5 -81M449 -17L431.75 -34.25L414.5 -51.5H397.5L368.5 -81" stroke="white" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M544.5 -45.5L574 -15.5H605M605 -15.5L541 -81M605 -15.5L634 13V72M634 72L591.5 30M634 72L662 100.5" stroke="white" stroke-opacity="0.2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="5" cy="7" r="5" fill="white" fill-opacity="0.2"/>
+<circle cx="137" cy="79" r="5" fill="white" fill-opacity="0.2"/>
+<circle cx="146" cy="17" r="5" fill="white" fill-opacity="0.2"/>
+<circle cx="251" cy="14" r="5" fill="white" fill-opacity="0.2"/>
+<circle cx="276" cy="3" r="5" fill="white" fill-opacity="0.2"/>
+<circle cx="422" cy="195" r="5" fill="white" fill-opacity="0.2"/>
+<circle cx="486" cy="133" r="5" fill="white" fill-opacity="0.2"/>
+<circle cx="404" cy="21" r="5" fill="white" fill-opacity="0.2"/>
+</g>
+<defs>
+<clipPath id="clip0_337_62">
+<rect width="570" height="200" fill="white"/>
+</clipPath>
+</defs>
+</svg>

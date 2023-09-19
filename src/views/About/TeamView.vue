@@ -1,65 +1,62 @@
 <template>
   <!-- H E A D E R -->
-  <div class="top-about">
+  <div class="header-team">
     <a href="/" class="button">
-      <img src="../assets/buttons/back.svg" class="icon" />
+      <img src="../../assets/buttons/back.svg" class="icon" />
 
       <p class="text">Kembali</p>
     </a>
 
-    <img src="../assets/ornaments/purpose.svg" />
+    <img src="../../assets/ornaments/purpose.svg" />
 
-    <h1>About</h1>
+    <div class="text-atas">
+      <h1>About</h1>
+
+      <div class="jarak-dikit-aja"></div>
+
+      <p>Home/About/Our Team</p>
+    </div>
   </div>
   <!-- H E A D E R -->
 
   <!-- H E R O -->
-  <div class="main-about">
-    <div class="content">
-      <h1>PT Mega Giga Solusindo</h1>
+  <div class="hero-team">
+    <div class="sidebar">
+      <div class="menu-item">
+        <div class="menu-icon"><a class="a-mgs" href="/Home/Aboutmgs">About mgs</a></div>
 
-      <p>
-        is an information technology outsourcing company that focuses on providing end-to-end
-        solutions in the areas of human resources and software engineering.
-      </p>
+        <div class="garis-bawah"></div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-icon"><a class="a-mgs" href="/Home/About/History">History</a></div>
+
+        <div class="garis-bawah"></div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-icon-active"><a class="a-mgs" href="/Home/About/OurTeam">Our Team</a></div>
+
+        <div class="garis-bawah-active"></div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-icon"><a class="a-mgs" href="/Home/About/CaseStudy">Case Study</a></div>
+
+        <div class="garis-bawah"></div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-icon"><a class="a-mgs" href="/Home/About/Blog">Blog Page</a></div>
+
+        <div class="garis-bawah"></div>
+      </div>
     </div>
   </div>
   <!-- H E R O -->
 
-  <!-- H I S T O R Y -->
-  <div class="history-about">
-    <div class="content">
-      <h1>History</h1>
-
-      <p>
-        PT Mega Giga Solusindo with more than 20 years of experience in building various businesses
-        through superior IT experts, we can enable your business to grow by implementing information
-        technology management holistically.
-      </p>
-
-      <div class="images">
-        <img src="../assets/images/history/1.png" />
-
-        <img src="../assets/images/history/2.png" />
-
-        <img src="../assets/images/history/3.png" />
-      </div>
-    </div>
-  </div>
-  <!-- H I S T O R Y -->
-
-  <!-- M I S S I O N -->
-  <div class="mission-about">
-    <div class="content">
-      <p>Our Mission</p>
-
-      <h1>“Business efficiency with information technology through IT Outsourcing”</h1>
-    </div>
-  </div>
-  <!-- M I S S I O N -->
-
   <!-- T E A M -->
-  <div class="team-about">
+  <div class="team">
     <div class="content">
       <div class="text">
         <h1>Meet Our Team</h1>
@@ -73,7 +70,7 @@
 
       <div class="photos">
         <div class="card">
-          <img src="../assets/images/team/1.png" />
+          <img src="../../assets/images/team/1.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -83,7 +80,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/2.png" />
+          <img src="../../assets/images/team/2.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -93,7 +90,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/3.png" />
+          <img src="../../assets/images/team/3.png" />
 
           <di v class="identity">
             <h5>Name</h5>
@@ -103,7 +100,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/4.png" />
+          <img src="../../assets/images/team/4.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -113,7 +110,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/2.png" />
+          <img src="../../assets/images/team/2.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -123,7 +120,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/1.png" />
+          <img src="../../assets/images/team/1.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -133,7 +130,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/4.png" />
+          <img src="../../assets/images/team/4.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -143,7 +140,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/3.png" />
+          <img src="../../assets/images/team/3.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -153,7 +150,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/1.png" />
+          <img src="../../assets/images/team/1.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -163,7 +160,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/2.png" />
+          <img src="../../assets/images/team/2.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -173,7 +170,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/3.png" />
+          <img src="../../assets/images/team/3.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -183,7 +180,7 @@
         </div>
 
         <div class="card">
-          <img src="../assets/images/team/4.png" />
+          <img src="../../assets/images/team/4.png" />
 
           <div class="identity">
             <h5>Name</h5>
@@ -199,7 +196,7 @@
   <!-- F O O T E R -->
   <div class="footer">
     <div class="content">
-      <img src="../assets/images/logo/footer.png" class="footer-logo" />
+      <img src="../../assets/images/logo/footer.png" class="footer-logo" />
 
       <p class="paragraph">
         As an Information Technology Outsourcing (IT Outsourcing) company, we help your business to
@@ -253,17 +250,17 @@
       <div class="footer-line"></div>
 
       <div class="footer-icons">
-        <img src="../assets/icons/footer/linkedin.svg" />
+        <img src="../../assets/icons/footer/linkedin.svg" />
 
-        <img src="../assets/icons/footer/facebook.svg" />
+        <img src="../../assets/icons/footer/facebook.svg" />
 
-        <img src="../assets/icons/footer/instagram.svg" />
+        <img src="../../assets/icons/footer/instagram.svg" />
 
-        <img src="../assets/icons/footer/twitter.svg" />
+        <img src="../../assets/icons/footer/twitter.svg" />
       </div>
 
       <div class="button-sitemap">
-        <a href="#"><img src="../assets/buttons/sitemap.svg" /></a>
+        <a href="#"><img src="../../assets/buttons/sitemap.svg" /></a>
       </div>
     </div>
   </div>

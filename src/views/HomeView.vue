@@ -4,9 +4,9 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <template>
   <!-- N A V B A R -->
-  <div class="navbar">
+  <div class="navbar-home">
     <div class="left">
-      <a href="#"><img src="../assets/images/logo.png" /></a>
+      <a href="/"><img src="../assets/images/logo/main.png" /></a>
     </div>
 
     <div class="right">
@@ -14,7 +14,7 @@ import TheWelcome from '../components/TheWelcome.vue'
         <li class="dropdown">
           <a href="#">
             Our Services
-            <img src="../assets/icons/majesticons_chevron-down.svg" class="dropdown-icon" />
+            <img src="../assets/icons/dropdown.svg" class="dropdown-icon" />
           </a>
 
           <ul class="dropdown-menu">
@@ -27,15 +27,14 @@ import TheWelcome from '../components/TheWelcome.vue'
                   <ul>
                     <p>Team Augmentation</p>
                     <li>IT Managed Services</li>
-                    <li>Software Development</li>
                   </ul>
                 </ul>
               </li>
             </div>
 
             <div class="column">
-              <!-- <li><a href="#">Lorem ipsum</a></li>
-              <li><a href="#">Lorem ipsum</a></li>-->
+              <li><a href="#">Lorem ipsum</a></li>
+              <li><a href="#">Lorem ipsum</a></li>
             </div>
           </ul>
         </li>
@@ -43,18 +42,17 @@ import TheWelcome from '../components/TheWelcome.vue'
         <li class="dropdown">
           <a href="#">
             About
-            <img src="../assets/icons/majesticons_chevron-down.svg" class="dropdown-icon" />
+            <img src="../assets/icons/dropdown.svg" class="dropdown-icon" />
           </a>
-
-          <!--<ul class="dropdown-menu">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-          </ul>
-          -->
         </li>
 
-        <li><a href="#career">Career</a></li>
+        <ul class="dropdown-menu">
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+        </ul>
+
+        <li><a href="#career-home">Career</a></li>
 
         <li><img src="../assets/buttons/language.svg" alt="" /></li>
       </ul>
@@ -65,7 +63,7 @@ import TheWelcome from '../components/TheWelcome.vue'
   <!-- H O M E -->
   <div class="home">
     <div class="left">
-      <img src="../../src/assets/ornaments/lingkaran.svg" class="circle" />
+      <img src="../../src/assets/ornaments/circle.svg" class="circle" />
 
       <div class="content">
         <h3>We Are Here</h3>
@@ -83,14 +81,14 @@ import TheWelcome from '../components/TheWelcome.vue'
     </div>
 
     <div class="right">
-      <img src="../../src/assets/images/Home.png" />
+      <img src="../../src/assets/images/home/main.png" />
     </div>
   </div>
   <!-- H O M E -->
 
   <!-- O U R - S E R V I C E S -->
-  <div class="our-services">
-    <img src="../assets/ornaments/our-services/pattern.svg" class="pattern" />
+  <div class="services-home">
+    <img src="../assets/ornaments/pattern-left.svg" class="pattern" />
 
     <h3>What We Have</h3>
 
@@ -99,11 +97,11 @@ import TheWelcome from '../components/TheWelcome.vue'
     <div class="box">
       <div class="left">
         <div class="content">
-          <img src="../assets/icons/our-servives/it-outsourcing.svg" class="icon" />
+          <img src="../assets/icons/services/it-outsourcing.svg" class="icon" />
 
           <h4>IT Outsourcing</h4>
 
-          <img src="../assets/ornaments/our-services/garis.svg" class="line" />
+          <img src="../assets/ornaments/line-2.svg" class="line" />
 
           <p>
             Hire our best IT expert and tell us about your business needs. We will give the best
@@ -118,9 +116,9 @@ import TheWelcome from '../components/TheWelcome.vue'
 
       <div class="right">
         <div class="content">
-          <img src="../assets/icons/our-servives/digital-transformation.svg" class="icon" />
+          <img src="../assets/icons/services/digital-transformation.svg" class="icon" />
           <h4>Digital Transformation</h4>
-          <img src="../assets/ornaments/our-services/garis.svg" class="line" />
+          <img src="../assets/ornaments/line-2.svg" class="line" />
 
           <p>
             Digital transformation can be seen as a threat or an opportunity for a business
@@ -137,7 +135,7 @@ import TheWelcome from '../components/TheWelcome.vue'
   <!-- O U R - S E R V I C E S -->
 
   <!-- W H Y - M G S -->
-  <div class="why-mgs">
+  <div class="reason-home">
     <h3>Why mgs ?</h3>
 
     <h2>Reason why mgs is the right place</h2>
@@ -148,7 +146,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
         <h4>Affordable</h4>
 
-        <img src="../assets/ornaments/garis.svg" class="line" />
+        <img src="../assets/ornaments/line-1.svg" class="line" />
 
         <p>
           We can provide modular services and be done incrementally, it keepsour services
@@ -161,7 +159,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
         <h4>Customized</h4>
 
-        <img src="../assets/ornaments/garis.svg" class="line" />
+        <img src="../assets/ornaments/line-1.svg" class="line" />
 
         <p>
           Provide services with technical and non-technical qualifications that are tailored to your
@@ -174,7 +172,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
         <h4>Collaborative Process</h4>
 
-        <img src="../assets/ornaments/garis.svg" class="line" />
+        <img src="../assets/ornaments/line-1.svg" class="line" />
 
         <p>
           Our approach of design thinking enables those of you who come from a non-IT background to
@@ -187,7 +185,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
         <h4>Continuous Support</h4>
 
-        <img src="../assets/ornaments/garis.svg" class="line" />
+        <img src="../assets/ornaments/line-1.svg" class="line" />
 
         <p>
           After sales support that is continuous and guaranteed, so you can carry out regular
@@ -199,11 +197,11 @@ import TheWelcome from '../components/TheWelcome.vue'
   <!-- W H Y - M G S -->
 
   <!-- A B O U T - U S -->
-  <div class="about-us">
-    <img src="../assets/ornaments/about-us.svg" class="pattern" />
+  <div class="about-home">
+    <img src="../assets/ornaments/pattern-right.svg" class="pattern" />
 
     <div class="content">
-      <img src="../assets/images/about-us.png" class="background" />
+      <img src="../assets/images/home/about.png" class="background" />
 
       <div class="box">
         <h2>About Us</h2>
@@ -222,8 +220,8 @@ import TheWelcome from '../components/TheWelcome.vue'
   <!-- A B O U T - U S -->
 
   <!-- O U R - P U R P O S E -->
-  <div class="our-purpose">
-    <img src="../assets/ornaments/our-purpose.svg" />
+  <div class="purpose-home">
+    <img src="../assets/ornaments/purpose.svg" />
 
     <p>Our Purpose</p>
 
@@ -232,8 +230,8 @@ import TheWelcome from '../components/TheWelcome.vue'
   <!-- O U R - P U R P O S E -->
 
   <!-- J O I N - N O W -->
-  <div class="join-now" id="career">
-    <img src="../assets/images/join-now.png" />
+  <div class="career-home" id="career-home">
+    <img src="../assets/images/home/career.png" />
 
     <div class="text">
       <h1>Build your Career while building inclusive technology with us</h1>
@@ -244,12 +242,152 @@ import TheWelcome from '../components/TheWelcome.vue'
   <!-- J O I N - N O W -->
 
   <!-- C O N T A C T -->
-  <div class="contact-page"></div>
+  <div class="contact-home" id="contact-home">
+    <div class="content">
+      <div class="left">
+        <div class="left-content">
+          <div class="text">
+            <h4>Contact Us</h4>
+
+            <h1>Haven’t gotten what you want yet ?</h1>
+          </div>
+
+          <div class="data">
+            <div class="data-content">
+              <div class="data-icon">
+                <img src="../assets/icons/contact/call.svg" />
+              </div>
+
+              <div class="data-text">
+                <h5>Call</h5>
+
+                <p>0274 4299 535</p>
+                <p>+ 62 877 203 203 94</p>
+              </div>
+            </div>
+
+            <div class="data-content">
+              <div class="data-icon">
+                <img src="../assets/icons/contact/email.svg" />
+              </div>
+
+              <div class="data-text">
+                <div class="email">
+                  <h5>Email</h5>
+
+                  <p>info@megagiga.co.id</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="data-content">
+              <div class="data-icon">
+                <img src="../assets/icons/contact/location.svg" />
+              </div>
+
+              <div class="data-text">
+                <h5>Location</h5>
+
+                <p>Pondok Permai Wirosaban B10, Jl. Ki Ageng Pemanahan Bantul Yogyakarta 55191</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="contact-box">
+          <form class="contact-form">
+            <input type="text" placeholder="Name" class="input-field" />
+
+            <input type="email" placeholder="Email" class="input-field" />
+
+            <input type="tel" placeholder="Phone" class="input-field" />
+
+            <textarea placeholder="Your Message" class="input-field textarea"></textarea>
+
+            <div class="sisa"></div>
+
+            <div class="button">
+              <a href="" class="send">Send</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- C O N T A C T -->
 
   <!-- F O O T E R -->
   <div class="footer">
-    <div class="footer-line"></div>
+    <div class="content">
+      <img src="../assets/images/logo/footer.png" class="footer-logo" />
+
+      <p class="paragraph">
+        As an Information Technology Outsourcing (IT Outsourcing) company, we help your business to
+        grow through qualified human resources.
+      </p>
+
+      <div class="all-menu">
+        <div class="menu">
+          <div class="list">
+            <h3>Services</h3>
+
+            <ul>
+              <li>IT Outsourcing</li>
+
+              <li>Digital Transformation</li>
+
+              <li>Career</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="menu">
+          <div class="list">
+            <h3>Contact</h3>
+
+            <ul>
+              <li><a href="about" class="white-text">MGS</a></li>
+
+              <li><a href="about" class="white-text">History</a></li>
+
+              <li><a href="about" class="white-text">Our Team</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="menu">
+          <div class="list">
+            <h3>Contact</h3>
+
+            <ul>
+              <li><a href="#contact-home" class="white-text">Call</a></li>
+
+              <li><a href="#contact-home" class="white-text">Email</a></li>
+
+              <li><a href="#contact-home" class="white-text">Location</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-line"></div>
+
+      <div class="footer-icons">
+        <img src="../assets/icons/footer/linkedin.svg" />
+
+        <img src="../assets/icons/footer/facebook.svg" />
+
+        <img src="../assets/icons/footer/instagram.svg" />
+
+        <img src="../assets/icons/footer/twitter.svg" />
+      </div>
+
+      <div class="button-sitemap">
+        <a href="Sitemap"><img src="../assets/buttons/sitemap.svg" /></a>
+      </div>
+    </div>
   </div>
   <!-- F O O T E R -->
 </template>

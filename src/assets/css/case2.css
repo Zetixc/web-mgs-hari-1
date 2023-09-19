@@ -1,0 +1,234 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#app {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  cursor: default;
+  scroll-behavior: smooth;
+}
+
+.top-case-study-2 {
+  height: 200px;
+  background: #ed1c25;
+  position: relative;
+  color: white;
+}
+
+.top-case-study-2 .back-button {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.back-button .back-text {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.top-case-study-2 .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.title .title-name {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+}
+
+.title .title-path {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.top-case-study-2 .button-lang {
+  position: absolute;
+  top: 86px;
+  right: 150px;
+}
+
+.top-case-study-2 .button-lang button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.top-case-study-2 .bg-pattern {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navbar-case-study-2 {
+  background: #f1f5f5;
+}
+
+.navbar-case-study-2 .list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  padding-top: 50px;
+  gap: 50px;
+}
+
+.navbar-case-study-2 .link-about,
+.navbar-case-study-2 .link-case-study,
+.navbar-case-study-2 .link-blog {
+  display: flex;
+  align-items: center;
+  height: 28px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar-case-study-2 .link-case-study {
+  color: #061951;
+}
+
+.navbar-case-study-2 .link-about,
+.navbar-case-study-2 .link-blog {
+  color: #1f1f1f33;
+}
+
+.header-case-study-2 {
+  background: #f1f5f5;
+  padding-top: 50px;
+}
+
+.header-case-study-2 .content {
+  background: #f1f5f5;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.header-case-study-2 h1 {
+  color: black;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+}
+
+.header-case-study-2 .search-bar {
+  background: url(../buttons/search-box.svg);
+  border-radius: 10px;
+  height: 36px;
+  width: 400px;
+  align-self: flex-end;
+  display: flex;
+}
+
+.header-case-study-2 .search-bar input {
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  background: transparent;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.header-case-study-2 .search-bar input::placeholder {
+  color: #1f1f1f66;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.latest-case-study-2 {
+  background: #f1f5f5;
+}
+
+.latest-case-study-2 .content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.latest-case-study-2 .content h3 {
+  padding-left: 150px;
+  margin-bottom: 10px;
+}
+
+.latest-case-study-2 .case-study-group {
+  padding-bottom: 30px;
+}
+
+.latest-case-study-2 .case-study {
+  height: 480px;
+  width: 555px;
+  background: white;
+}
+
+.latest-case-study-2 .case-study .case-study-cover {
+  height: 276px;
+  background: url(../images/case-study/1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.case-study-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.case-study-header .title h2 {
+  padding: 0 !important;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.case-study-header .date p {
+  padding: 0 !important;
+  color: #1f1f1f99;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.case-study-description p {
+  padding: 0 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  text-align: justify;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.case-study {
+  position: relative;
+}
+
+.read-more {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+
+.latest-case-study-2-group-all {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1140px;
+  gap: 30px;
+}

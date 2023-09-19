@@ -1,0 +1,214 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ============================== */
+/* #app */
+/* ============================== */
+#app {
+  cursor: default !important;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* ============================== */
+/* .header-case */
+/* ============================== */
+.header-case {
+  align-items: center;
+  background: #ed1c25;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-case .button .icon {
+  left: 100px;
+  top: 50px;
+}
+
+.header-case .button .text {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  position: absolute;
+  left: 140px;
+  top: 53px;
+}
+
+.header-case .text-atas {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-case h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+.header-case .jarak-dikit-aja {
+  height: 5px;
+}
+
+.header-case p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: white;
+}
+
+.header-case img {
+  position: absolute;
+  right: 0;
+  top: -72px;
+}
+
+/* ============================== */
+/* .hero-case */
+/* ============================== */
+.hero-case {
+  background: url(../images/about/case/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.hero-case .content {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+.hero-case h1 {
+  color: #1f1f1f;
+  font-size: 50px;
+  font-weight: 700;
+  height: 61px;
+  line-height: 61px;
+  width: 595px;
+}
+
+.hero-case p {
+  color: #1f1f1fcc;
+  font-size: 30px;
+  font-weight: 400;
+  height: 144px;
+  line-height: 36px;
+  padding-top: 10px;
+  text-align: justify;
+  width: 595px;
+}
+
+/* ============================== */
+/* .case-study */
+/* ============================== */
+.case-study {
+  background: white;
+  height: 1159px;
+}
+
+.case-study .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.case-study .content2 {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.case-study h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 61px;
+  padding-top: 50px;
+}
+
+.case-study h2 {
+  color: black;
+  font-size: 38px;
+  font-weight: 500 !important;
+  line-height: 46px;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.case-study p {
+  color: #290f20cc;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+
+.gambar-case {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+/* ============================== */
+/* .another-case-study */
+/* ============================== */
+.another-case-study {
+  background: #f1f5f5;
+  height: 800px;
+}
+
+.another-case-study .content3 {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.another-case-study .another {
+  color: #290f20cc;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.gambar-another {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.gambar-another .box-another {
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+}
+
+.gambar-another .box-another h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 34px;
+  margin-top: -60px;
+  padding-left: 30px;
+  z-index: 9;
+}
+
